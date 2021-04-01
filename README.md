@@ -2,9 +2,8 @@ Asumiendo que ya tiene todo el entorno de php instalado, composer y wampserver
 1)Crear el archivo ".env" guiandose del ".env.example" y cambiar (DB_DATABASE=laravel) poniendo el nombre de tu bd
 2)composer install
 3)php artisan migrate
-4)php artisan db:seed (el usuario admin sera email:admin@gmail.com, password:password)
-5)php artisan key:generate
-6)php run server
+4)php artisan key:generate
+5)php run server
 
 las url para las peticiones son:
 GET http://127.0.0.1:8000/messages (para ver todos los mensajes de todos los chats) retorna un array de json
